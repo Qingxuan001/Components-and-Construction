@@ -1,0 +1,59 @@
+@size: 36;
+
+.w(@dp) {
+    width: unit(@dp/@size, rem);
+}
+.h(@dp) {
+    height: unit(@dp/@size, rem);
+}
+.fs(@dp) {
+    font-size: unit(@dp/@size, rem);
+}
+.p(@t, @r, @b, @l) {
+    padding: unit(@t/@size, rem) unit(@r/@size, rem) unit(@b/@size, rem) unit(@l/@size, rem);
+}
+.pt(@dp) {
+    padding-top: unit(@dp/@size, rem);
+}
+.pr(@dp) {
+    padding-right: unit(@dp/@size, rem);
+}
+.pb(@dp) {
+    padding-bottom: unit(@dp/@size, rem);
+}
+.pl(@dp) {
+    padding-left: unit(@dp/@size, rem);
+}
+.plr(@dp) {
+    padding: 0 unit(@dp/@size, rem);
+}
+.ptb(@dp) {
+    padding: unit(@dp/@size, rem) 0;
+}
+.plt(@t, @l) {
+    padding: unit(@t/@size, rem) unit(@l/@size, rem);
+}
+.m(@t, @r, @b, @l) {
+    margin: unit(@t/@size, rem) unit(@r/@size, rem) unit(@b/@size, rem) unit(@l/@size, rem);
+}
+.mt(@dp) {
+    margin-top: unit(@dp/@size, rem);
+}
+.mr(@dp) {
+    margin-right: unit(@dp/@size, rem);
+}
+.mb(@dp) {
+    margin-bottom: unit(@dp/@size, rem);
+}
+.ml(@dp) {
+    margin-left: unit(@dp/@size, rem);
+}
+.mlr(@dp) {
+    margin: 0 unit(@dp/@size, rem);
+}
+.mtb(@dp) {
+    margin: unit(@dp/@size, rem) 0;
+}
+.mlt(@t, @l) {
+    margin: unit(@t/@size, rem) unit(@l/@size, rem);
+}
